@@ -17,3 +17,6 @@ document.write(E + "<br>");//Diplays the var E after concatenating with a break 
 
 G = 3 + 3;//Stores the result of the equation in the var G
 document.write(String(G));//Converts var G(which is an int) to a string and displays it
+
+var H = "<br>Colored text";//Stores string as var H
+document.write(H.fontcolor("green").fontsize(20));//Colors the text in var H, and then changes the font size before displaying
