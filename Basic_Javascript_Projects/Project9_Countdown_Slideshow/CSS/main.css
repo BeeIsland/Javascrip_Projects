@@ -1,0 +1,98 @@
+* {box-sizing: border-box;}
+
+.slideshow-container {
+        max-width: 50%;
+        position: relative;
+        margin: auto;
+        margin-left: 25%;
+}
+
+.image {
+        width: 10%;
+        border-width: 8px;
+        border-color: black;
+        border-radius: 5px;
+        border-style: solid;
+        margin-left: 0px;
+}
+
+/*Buttons*/
+.prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: .6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+}
+
+.next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+        background-color: rgba(0,0,0,.8);
+}
+
+/*Caption*/
+.text {
+        color: #f2f2f2;
+        font-size: 15px;
+        position: absolute;
+        bottom: 20px;
+        width: 50%;
+        text-align: center;
+        background-color: rgba(48, 48, 48, 0.641);
+        left: 25%;
+        
+}
+
+/*Slide number*/
+.numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 5px 4px;
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        background-color: rgba(48, 48, 48, 0.689);
+}
+
+/*Dots*/
+.dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color .6s ease;
+}
+
+.centered {
+        text-align: center;
+        width: 50%;
+        margin-left: 25%;
+}
+
+.active, .dot:hover {
+        background-color: #717171;
+}
+
+/*Fade animation*/
+.fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+}
+
+@keyframes fade {
+        from {opacity: .4;}
+        to {opacity: 1;}
+}

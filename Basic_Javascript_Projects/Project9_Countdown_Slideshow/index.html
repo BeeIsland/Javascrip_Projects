@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<title>TITLE</title>
+		<meta charset="utf-8">
+                <script src="JS/main.js"></script>
+                <link href="CSS/main.css" rel="stylesheet" type="text/CSS">
+	</head>
+	<body onload="currentSlide(1)">
+                <p>How many second would you like to set the alarm for?</p>
+                <input id="seconds">
+                <button onclick="countdown()">Click here!</button>
+                <p id="timer"></p>
+                <br><br>
+                <!---SLIDESHOW CONTAINER--->
+                <div class="slideshow-container">
+                        <!-- IMAGES -->
+                        <div class="mySlides fade">
+                                <div class="numbertext">1 / 3</div>
+                                <img class="image" src="IMG/pexels-frans-van-heerden-624015.jpg" style="width: 100%;">
+                                <div class="text">An igloo built under a beautiful Aurora</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                                <div class="numbertext">2 / 3</div>
+                                <img class="image" src="IMG/pexels-stein-egil-liland-3408744.jpg" style="width: 100%;">
+                                <div class="text">The beauty of an Aurora over a frozen landscape</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                                <div class="numbertext">3 / 3</div>
+                                <img class="image" src="IMG/pexels-tobias-bjørkli-2113566.jpg" style="width: 100%;">
+                                <div class="text">A much more visible and radiant Aurora</div>
+                        </div>
+
+                        <!--BUTTONS-->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!--DOTS-->
+                <div class="centered">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+	</body>
+</html>
