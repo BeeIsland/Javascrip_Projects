@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<title>TITLE</title>
+		<meta charset="utf-8">
+                <script src="HTML1.js" defer></script>
+	</head>
+	<body>
+                <p>What is your favorite of these colors</p>
+                <ul>
+                        <li>Red</li>
+                        <li>Orange</li>
+                        <li>Yellow</li>
+                        <li>Green</li>
+                        <li>Blue</li>
+                        <li>Purple</li>
+                        <li>Pink</li>
+                </ul>
+                <input type="text" id="colorInput">
+                <button onclick="colorFunction()">Enter</button>
+                <p id="output"></p>
+                <br><br>
+                <p class="classCall">These are the same but only this one will change</p>
+                <p class="classCall">These are the same but only that one will change</p>
+                <button onclick="alteringStr()">Change</button>
+                <br><br>
+                <canvas id="drawingPlate" width="200" height="200" style="border: 8px solid black; margin-top: 20px;"></canvas>
+                <br>
+                <button onclick="drawing()">Draw</button>
+	</body>
+</html>
