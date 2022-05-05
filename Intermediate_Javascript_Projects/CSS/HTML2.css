@@ -1,0 +1,21 @@
+input {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10px;
+}
+
+form {
+        width: 30%;
+        margin: 35%; 
+        margin-top: 20%;
+        background-color: rgba(128, 128, 128, 0.671);
+        border: 3px solid rgba(87, 87, 87, 0.686);
+        border-radius: 3px;
+}
+
+button {
+        margin-top: 10px;
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 10px;
+}
