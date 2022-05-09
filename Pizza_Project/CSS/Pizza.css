@@ -1,0 +1,101 @@
+
+#menuBG {
+        width: 600px;
+        height: 470px;
+        margin: 10px auto;
+}
+
+#frmMenu {
+        width: 600px;
+        height: 200px;
+}
+
+#totalPrice {
+        width: 200px;
+        height: 190px;
+        margin: 0 auto;
+        float: right;
+}
+
+.Left, .Right, .Middle {
+        width: 192px;
+        height: 230px;
+        border: 4px solid brown;
+        border-radius: 4px;
+        line-height: 27px;
+        margin-top: 10px;
+}
+
+.Left {
+        float: left;
+        line-height: 37px;
+}
+
+.Right {
+        float: right;
+}
+
+.Middle {
+        float: right;
+}
+
+#showText {
+        width: 200px;
+        height: 190px;
+        margin: 0px auto;
+        float: left;
+        font-size: 20px;
+}
+
+#cart {
+        top: 0;
+        margin: 0px auto;
+        width: 400px;
+        height: 200px;
+}
+
+#btnOrder {
+        margin: 10px 0 0 250px;
+        width: 100px;
+        height: 40px;
+        font-family: "comic sans ms";
+        color: rgb(144, 64, 33);
+        background-color: beige;
+        border: 5px solid brown;
+        border-radius: 10px;
+}
+
+#btnOrder:hover {
+        background-color: bisque;
+        border-color: rgb(122, 47, 31);
+}
+
+#btnOrder:active {
+        background-color: rgb(237, 196, 145);
+}
+
+h1 {
+        text-align: center;
+        color: rgb(144, 64, 33);
+        font-family: "comic sans ms";
+}
+
+body {
+        background-color: beige;
+}
+
+h3 {
+        font-family: "comic sans ms";
+        color: rgb(195, 89, 47);
+        margin: 5px;
+}
+
+div {
+        font-family: "comic sans ms";
+        color: rgb(210, 78, 26);
+}
+
+h5 {
+        margin: 0px;
+        margin-left: 10px;
+}
