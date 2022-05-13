@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<title>TITLE</title>
+		<meta charset="utf-8">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <link href="./Challenges.css" rel="stylesheet" type="text/css">
+                <script src="./Challenges.js" defer></script>
+	</head>
+	<body>
+                <!-- VW UNIT -->
+                <p id="vwUnit">This text is a percentage of the viewport width</p>
+                <!------------>
+                <br>
+                <hr>
+                <br>
+                <!-- FADE -->
+                <p id="fade" hidden>This text is fades in when the page loads</p>
+                <!------------>
+                <br>
+                <hr>
+                <br>
+                <!-- FORM -->
+                <div id="form">
+                        <p>Please input your phone number so we can get back to you!</p>
+                        <input type="email" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        <button onclick="checkForm()">Submit</button>
+                </div>
+                <!------------>
+                <br>
+                <hr>
+                <br>
+                <!-- POPUP FORM-->
+                <button id="displayBttn" onclick="showModal();">Open Contact Form</button>
+                <div id="popupForm" hidden>
+                        <h2>Contact Form</h2>
+                        <div class="inputFields">
+                                <input id="fName" placeholder="First Name">
+                                <input id="lName" placeholder="Last Name">
+                                <input id="email" placeholder="Email">
+                                <button class="cancel" onclick="hideModal()">Cancel</button>
+                                <button class="submit" onclick="hideModal()">Submit</button>
+                        </div>
+
+                </div>
+                <!------------>
+                <br>
+                <hr>
+                <br>
+                <!-- MOVING BOX -->
+                <div id="movingBox"></div>
+                <!------------>
+                <!-- ZOOM EFFECT -->
+                <div class="imgContainer" id="zoom">
+                        <img src="../Tic_Tac_Toe/Images/o.png">
+                </div>
+                <!------------>
+                <!-- SCROLLING -->
+                <div class="fixedNav">
+                        <a href="#vwUnit" id="top">Warp to Top</a>
+                        <a href="#zoom" id="bottom">Warp to Image</a>
+                </div>
+                <!------------>
+                <br>
+                <hr>
+                <br>
+                <!-- AUTOMATIC SLIDESHOW -->
+                <div id="slideshow">
+                        <div>
+                                <img src="../Basic_Javascript_Projects/Project9_Countdown_Slideshow/IMG/pexels-frans-van-heerden-624015.jpg" >
+                        </div>
+
+                        <div>
+                                <img src="../Basic_Javascript_Projects/Project9_Countdown_Slideshow/IMG/pexels-stein-egil-liland-3408744.jpg" >
+                        </div>
+
+                        <div>
+                                <img src="../Basic_Javascript_Projects/Project9_Countdown_Slideshow/IMG/pexels-tobias-bjørkli-2113566.jpg" >
+                        </div>
+                </div>
+                <!------------>
+	</body>
+</html>

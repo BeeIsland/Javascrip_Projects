@@ -1,0 +1,166 @@
+
+
+#vwUnit {
+        font-size: 5vw;
+        margin: 10px;
+}
+
+#fade {
+        font-size: 5vw;
+        margin: 10px;
+}
+
+input {
+        width: 96%;
+        margin: 2%;
+        margin-top: 0;
+}
+
+/* CONTACT FORM */
+#popupForm {
+        background-color: rgb(171, 171, 171);
+        width: 48%;
+        border: 4px solid rgb(107, 107, 107);
+        padding: 2%;
+        padding-top: 0;
+        position: fixed;
+        left: 25%;
+        top: 25%;
+
+}
+
+.cancel, .submit {
+        width: 49%;
+        margin-top: 10px;
+        height: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+}
+
+.cancel {
+        background-color: red;
+}
+
+.submit {
+        background-color: green;
+}
+
+#displayBttn {
+        margin-top: 20px;
+
+}
+
+/* FORM END */
+/* MOVING BOX */
+#movingBox {
+        background-color: red;
+        width: 50px;
+        height: 50px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        position: relative;
+}
+
+#movingBox {
+        animation: diamond 4s linear infinite;
+}
+
+@keyframes diamond {
+        0% {left: 0%; top: 0px;}
+        25% {left: 45%; top: 200px;}
+        50% {left: 90%; top: 000px;}
+        75% {left: 45%; top: -200px;}
+        100% {left: 0%; top: 0px;}
+}
+/* MOVING BOX END */
+/* PICTURE ZOOM */
+.imgContainer {
+        background-color: lightgray;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        border: 5px solid darkgray;
+        border-radius: 20px;
+}
+
+.imgContainer img {
+        width: 200px;
+        height: 200px;
+        margin: 50px;
+        transition: width 2s, height 2s, margin 2s;
+}
+
+.imgContainer img:hover {
+        width: 300px;
+        height: 300px;
+        margin: 0px;
+}
+
+/* PICTURE ZOOM END*/
+/* NAV AND SCROLLING */
+#top, #bottom {
+        background-color: lightgray;
+        border: 5px inset slategray;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 500;
+        position: fixed;
+        right: 3px;
+        text-decoration: none;
+        color: blueviolet;
+        padding: 4px;
+        z-index: 100;
+}
+
+#top {
+        top: 3px;
+}
+
+#bottom {
+        bottom: 3px;
+}
+
+html {
+        scroll-behavior: smooth;
+}
+
+
+/* SCROLLING END */
+/* AUTO SLIDESHOW */
+#slideshow {
+        position: relative;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 600px;
+        height: 400px;
+        background-color: gray;
+        padding: 10px;
+}
+
+#slideshow div {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+}
+
+/* END SLIDESHOW */
+/* STICKY BUTTON */
+#displayBttn {
+        position: sticky;
+        margin: auto;
+        padding: 2%px;
+        font-size: 1vw;
+        margin-left: 91%;
+        top: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: blue;
+        background-color: orange;
+}
+/*END STICKY BUTTON*/
+
+hr {
+        height: 3px;
+        background-color: black;
+}
